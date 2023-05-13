@@ -203,4 +203,8 @@ body {
   .col {
     text-align: center;
   }
+
+  .search input {
+    font-size: 0.5rem;
+  }
 }
