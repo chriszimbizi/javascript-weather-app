@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <!-- css -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- js -->
+
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- search box -->
+      <div class="search">
+        <button class="location-btn">
+          <i class="bx bx-current-location"></i>
+        </button>
+        <input type="text" placeholder="Enter a city name" id="city" />
+        <button class="search-btn">
+          <i class="bx bx-search"></i>
+        </button>
+      </div>
+
+      <!-- error 404 -->
+
+      <div class="error-404">
+        <p>Invalid City Name !</p>
+      </div>
+
+      <!-- weather box -->
+      <div class="weather">
+        <img src="images/clear.png" class="weather-icon" alt="" />
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">New York</h2>
+        <h3 class="description">Sunny</h3>
+
+        <div class="weather-details">
+          <div class="col">
+            <i class="bx bx-water"></i>
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <i class="bx bx-wind"></i>
+            <div>
+              <p class="wind">7 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
