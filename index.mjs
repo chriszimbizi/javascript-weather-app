@@ -1,5 +1,5 @@
 // API key and URL
-const apiKey = require("./config.js");
+import apiKey from "./config.mjs";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&";
 
 // DOM elements
