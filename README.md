@@ -21,9 +21,10 @@ To use the Weather App effectively, follow these steps:
 3. Click the "Search" button or press "Enter" to retrieve the weather information for the specified city.
 4. Alternatively, you can allow the app to detect your current location by clicking the "Use Current Location" button.
 
-## Screenshot
+## Screenshots
 
-<div align="center"><img src="https://github.com/chriszimbizi/weather-app/assets/121321293/f175ff23-2b9c-472f-b5f3-bb6a31832632" width="400" /></div>
+<img src="https://github.com/chriszimbizi/weather-app/assets/121321293/f279d860-c006-4870-8946-a127a0ee9e3c" height="350" alt="mobile-design"/>
+<img src="https://github.com/chriszimbizi/weather-app/assets/121321293/846d4586-7720-4024-9289-6ca4c01fc3d7" height="350" alt="desktop-design"/>
 
 ## Conclusion
 
